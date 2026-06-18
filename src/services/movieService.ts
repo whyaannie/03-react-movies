@@ -22,5 +22,3 @@ export async function fetchMovies(query: string): Promise<Movie[]> {
 
   return response.data.results;
 }
-
-console.log(import.meta.env.VITE_TMDB_TOKEN);
